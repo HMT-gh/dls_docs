@@ -1,0 +1,243 @@
+# DLS Version log
+
+<br>
+#<a href="?post=V2_Getting-Started">V2</a>
+<br>
+##<a href="?post=V2_Getting-Started">V2.1.1 <sub>⠀(next version)</sub></a>
+###Changelog:
+>     + Grid Snap Toggle in preference menu
+    + Single pixel display, following issue #305 and many itch.io topics
+
+
+<br>
+##<a href="?post=V2_Getting-Started">V2.1.0 <sub>⠀Apr. 15, 2025 (latest version)</sub></a>
+###Changelog:
+>     + In wire edit mode, clicking away from wire now exits edit mode, following issue #297
+    +- Changed delete warning message colour based on severity in chip library menu
+    +- Fixed sim bug where multiple buses lead to some having incorrect state
+    +- Changed chip delete message to warn if it's used in the current chip
+    +- Fixed arrow key missing char bug on Macs using privateuse blacklist
+    +- Fixed bugs relating to deleting chips being used in other chips
+    +- Set default simpin state to 'disconnected'
+    +- Fixed initial simpin sourceID
+    +- Improved project loading
+    - No longer saving unnecessary information (e.g. bus color -> derived from input source)
+
+
+<br>
+##<a href="?post=V2_Getting-Started">V2.0.4 <sub>⠀Apr. 13, 2025</sub></a>
+###Changelog:
+>     + New Keyboard Shortcuts
+    + Ability to delete wire points in edit mode
+    + Ability to edit wire-wire connections
+    + Ability to insert points in wire edit mode
+    + Now showing grid when snapping wire edit points
+    +- Fixed arrow keys causing missing char symbol in input field on Mac (partially)
+    +- Fixed collection rename bug, following issues #262 and #270
+
+
+<br>
+##<a href="?post=V2_Getting-Started">V2.0.3 <sub>⠀Apr. 12, 2025</sub></a>
+###Changelog:
+>     +- Fixed Star / Unstar buttons not working in search menu
+    +- Fixed 'use' button always enabled in chip library, following issue #225
+
+
+<br>
+##<a href="?post=V2_Getting-Started">V2.0.2 <sub>⠀Apr. 12, 2025</sub></a>
+###Changelog:
+>     +- Fixed upside down rendering on some platforms
+
+
+<br>
+##<a href="?post=V2_Getting-Started">V2.0.1 <sub>⠀Apr. 12, 2025</sub></a>
+###Changelog:
+>     +- Fixed upside down rendering on some platforms (partially)
+
+
+<br>
+##<a href="?post=V2_Getting-Started">V2.0 <sub>⠀Apr. 12, 2025</sub></a>
+###Changelog:
+>     + Ability to duplicate projects in the 'Load Project' screen
+    + Grid and grid snapping
+    + Other handy keyboard shortcuts
+    + Ability to slow the simulation down
+    + Ability to stop the simulation and move forward using Tab
+    + Ability to find chips
+    + Input / Output pins aren't constrained to the sides of the screen anymore
+    + Chips aren't constrained to a certain area anymore
+    + 4 and 8 Bit I/O pins, wires and buses
+    +- Changed the About section to display: "Todo: Write something helpful here..."
+    +- Digital Logic Sim main menu title shadow is now purple instead of cycling through red, green and blue
+    +- Simulator now runs as a compute shader (Runs on the GPU instead of the CPU)
+    +- Ability to customize chips when saving them (size, color, text, displays)
+    +- Improved chip library (collections, star / unstar chips)
+    +- You now start with a NAND gate instead of an AND gate and a NOT gate
+    - Wire turns don't bend anymore
+####`+ Added Components:`
+>>     Key
+    Split (1-4, 1-8, 4-8)
+    Merge (4-1, 8-4, 8-1)
+    Dot Matrix Display
+    RGB Dot Matrix Display
+    ROM 256x16
+
+
+<br><br>
+#<a href="?post=V1_Getting-Started">V1</a>
+<br>
+##<a href="?post=V1_Getting-Started">V1.0.2 <sub>⠀Jan. 29, 2023</sub></a>
+###Changelog:
+>     + Bus
+    +- Bug fixes
+
+
+<br>
+##<a href="?post=V1_Getting-Started">V1.0.1 <sub>⠀Jan. 03, 2023</sub></a>
+###Changelog:
+>     +- Fixed mouse alignment bug on non 16x9 displays
+    +- Fixed crash when adding original chip inside of copied chip
+    +- Fixed missing code display for tristate buffer
+    +- Fixed bug with wire positions not updating in certain cases
+    +- Various other small fixes
+    - Removed ability to delete wires when viewing a chip
+
+
+<br>
+##<a href="?post=V1_Getting-Started">V1.0 <sub>⠀Dec. 30, 2022</sub></a>
+###Changelog:
+>     + 7-Segment Display
+    + Clock
+    + Built-in Tri-State Buffer
+    + Ability to assign color to new chips
+
+
+<br><br>
+#<a href="?post=V0_Getting-Started">V0</a>
+<br>
+##<a href="?post=V0_Getting-Started">V0.26 <sub>⠀May. 24, 2022</sub></a>
+###Changelog:
+>     +- Temporary work-around for loading issue
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.25 <sub>⠀Dec. 06, 2020</sub></a>
+###Changelog:
+>     + Pin names display options : Alt + Hover | Hover | Always I/O | Always
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.24 <sub>⠀Dec. 04, 2020</sub></a>
+###Changelog:
+>     + Binary to decimal display for input pin groups
+    +- Improved settings menu
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.23 <sub>⠀Dec. 04, 2020</sub></a>
+###Changelog:
+>     +- Fix for non 16:9 displays - added letterboxing
+    +- Fixed jittering wires bug
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.22 <sub>⠀Dec. 04, 2020</sub></a>
+###Changelog:
+>     +- Set target frame rate
+    +- Screenspace cam UI test
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.21 <sub>⠀Dec. 04, 2020</sub></a>
+###Changelog:
+>     + VSync
+    +- Fixed wire axis snapping bug
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.2 <sub>⠀Dec. 04, 2020</sub></a>
+###Changelog:
+>     + Ability to place multiple Input / Output pins at the same time
+    + Move / delete I/O pins as group
+    + Binary to decimal display for input pin groups
+    +- Bug Fix: Output pins now reset (state = OFF) after being disconnected
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.1 <sub>⠀Dec. 04, 2020</sub></a>
+###Changelog:
+>     +- Reduced chip size
+    +- Show whole I/O pin instead of just handle when spawning
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.0 <sub>⠀Dec. 02, 2020</sub></a>
+###Changelog:
+>     +- Fixed project display name on windows
+    +- Fixed duplicate project name bug
+    +- Fixed null camera bug
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.9 ALPHA <sub>⠀Dec. 02, 2020</sub></a>
+###Changelog:
+>     +- general clean up and bug fixes
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.08 ALPHA <sub>⠀Nov. 29, 2020</sub></a>
+###Changelog:
+>     + Sim min step time
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.07 ALPHA <sub>⠀Nov. 29, 2020</sub></a>
+###Changelog:
+>     + Scrollable chip bar
+    + Chip depth sorting
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.06 ALPHA <sub>⠀Nov. 28, 2020</sub></a>
+###Changelog:
+>     +- Reorganization / Clean up
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.05 ALPHA <sub>⠀Nov. 28, 2020</sub></a>
+###Changelog:
+>     - Removed unused materials
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.04 ALPHA <sub>⠀Nov. 28, 2020</sub></a>
+###Changelog:
+>     +- Update to save system
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.03 ALPHA <sub>⠀Nov. 24, 2020</sub></a>
+###Changelog:
+>     + Main Menu
+    + Save system
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.02 ALPHA <sub>⠀Nov. 23, 2020</sub></a>
+###Changelog:
+>     + Chip creation UI
+
+
+<br>
+##<a href="?post=V0_Getting-Started">V0.01 ALPHA <sub>⠀Nov. 23, 2020 (oldest version)</sub></a>
+ ---
+###<a href="https://github.com/SebLague/Digital-Logic-Sim/tree/42fc8b6cd5130f757c9a8d23f492da84790fd1f5">Download from Github</a>
+###Changelog:
+
+>     ++ Digital Logic Sim was created using the Unity engine
+    + AND Chip
+    + NOT Chip
+    + Input / Output Pins
+    + Chip creation system
+    + Chip / Pin placement system
+    + Wires
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
